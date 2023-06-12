@@ -9,7 +9,13 @@ const Products = () => {
     <Page>
       <Layout sectioned>
         <QueryClientProvider client={queryClient}>
-          <div style={{ paddingBottom: "35px", paddingTop: "20px" }}>
+          <div
+            style={{
+              paddingLeft: "20px",
+              paddingBottom: "35px",
+              paddingTop: "20px",
+            }}
+          >
             <Text alignment="start" variant="heading2xl" as="h6">
               Products
             </Text>
